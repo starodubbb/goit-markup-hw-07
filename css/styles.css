@@ -525,7 +525,11 @@ img {
 }
 
 /** ----------------------TEAM--------------------- */
-
+@media only screen and (min-width: 768px) and (max-width: 1157px) {
+  .section-team .container {
+    max-width: 582px;
+  }
+}
 .section-team {
   background-color: #f4f4fd;
 }
@@ -566,6 +570,11 @@ img {
 
 /** ---------------------CUSTOMERS--------------------- */
 .section-customers {
+}
+@media only screen and (min-width: 768px) and (max-width: 1157px) {
+  .section-customers .container {
+    max-width: 582px;
+  }
 }
 .customers-title {
 }
@@ -634,8 +643,7 @@ img {
 }
 @media only screen and (min-width: 768px) and (max-width: 1157px) {
   .footer .container {
-    padding-right: 108px;
-    padding-left: 108px;
+    max-width: 582px;
   }
 }
 @media only screen and (max-width: 767px) {
@@ -937,6 +945,7 @@ img {
   display: inline-flex;
   justify-content: center;
   align-items: center;
+  flex-shrink: 0;
   width: 16px;
   height: 16px;
 
@@ -1003,7 +1012,7 @@ img {
   height: 100%;
   padding-left: 40px;
   padding-top: 80px;
-  padding-right: 40px;
+  padding-right: 35px;
   padding-bottom: 40px;
 
   background-color: #ffffff;
@@ -1066,6 +1075,12 @@ img {
 .mobile-menu-socials-list {
   gap: 56px;
 }
+@media only screen and (max-width: 427px) {
+  .mobile-menu-socials-list {
+    gap: 24px;
+  }
+}
+
 /** --------------------PORTFOLIO PAGE--------------------- */
 
 .section-application {
